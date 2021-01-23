@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
-import { Player, Recorder, PlayerError } from '@react-native-community/audio-toolkit';
+import { Player } from '@react-native-community/audio-toolkit';
 
 export default ({ data }) => {
     let initState = {
